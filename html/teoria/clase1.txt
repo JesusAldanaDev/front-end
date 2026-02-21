@@ -1,0 +1,224 @@
+## clase1 ##
+#   Por que aprender HTML hoy en dia?
+    * HTML the skeleton
+    * CSS the skin
+    * JAVASCRIPT the brain
+
+#   cual es la diferencia?
+    * HTML:* Para crear la estructura.
+    * HTML:* Controla la particion del contenido.
+    * HTML:* Proporciona estructura para las paginas web.
+    * HTML:* Es fundamental para construir bloques en cualquier pagina web.
+
+    * CSS:* Estilizar la pagina web.
+    * CSS:* Aplicar estilos a los elementos de las paginas webs.
+    * CSS:* Apunta a crear varios tamanios de pantallas para que funcionen en pc, phones,laptop,tablets, etc...
+    * CSS:* Primeramente se trabaja para ver como se ve y como se siente la pagina web.
+
+    * JAVASCRIPT:* Incrementa interactividad.
+    * JAVASCRIPT:* Agrega interactividad a las paginas webs.
+    * JAVASCRIPT:* Maneja funciones y caracteristicas complejas.
+    * JAVASCRIPT:* Codigo programatico que mejora la funcionalidad.
+
+#   Razones por las que aprender HTML
+    * Es el responsable de estructurar todos los contenidos de una web.
+    * Trabajes en lo que trabajes debes conocer HTML.
+    * Toda la web esta hecha de HTML.
+    * Son los cimientos de toda web o webapp.
+
+#   Caracteristicas de HTML
+    1. Texto plano.
+    2. Se puede editar con cualquier editor.
+    3. No necesita ser compilado ni transpilado.
+    4. No es un lenguaje de programacion.
+    5. Es un lenguaje de marcado de la informacion.
+    6. Nacio con internet.
+
+#   HTML se ensenia mal.
+    * Mucho tutorial de un solo uso.
+    * Documentacion anticuada.
+    * Se estudia programacion web sin saber las bases que sustenta toda la web.
+    * Se necesite un aprendizaje incremental y en detalle.
+    * No mezclar tecnologias, al menos al principio.
+
+#   Perfiles profesionales en la web.
+    * Frontend
+    * Backend
+    * Maquetador
+    * FullStack
+    * SEO
+    * Analista web
+    * SEM
+    * DevOps
+    * QA
+    * Diseniador
+    * UI/UX
+    * Marketing Digital
+    * Automatizaciones
+    * Accesibilidad
+    * Redactor
+    * Creador de contenido
+
+#   Estatico vs Dinamico
+    static
+    server --> client/browser
+    Dinamic
+    Web server --> <-- Data base --> client/browser
+
+#   Diferencias de estatica y dinamica
+    # Pagina estatica.
+    * No dispone de base de datos.
+    * No dispone de panel de administracion.
+    * Solo dispone de ficheros HTML, CSS y JS.
+    * Solo puede ser automatizada por un desarrollador.
+    * No suele disponer de lenguaje de programacion de parte del servidor.
+    * Se mostraran siempre igual para todos los usuarios.
+    * NO hay registro/login ni sesion.
+    * Sin interaccion solo en una via.
+    # Suelen ser:
+        * Paginas corporativas.
+        * Landing pages.
+        * Paginas informativas.
+        * Blogs(*).
+
+    # Pagina dinamica
+    * Dispone de motor de base de datos.
+    * Dispone de lenguaje de programacion de parte del servidor.
+    * Dispone de logica asociada a los contenidos.
+    * Tambien tiene HTML, CSS, JS.
+    * Sesion de usuario/login/registro.
+    * Interactividad en las dos vias.
+    * Contenidos unicos por usuario
+    # Ejemplos de paginas dinamicas.
+        * Twitter
+        * Pagina de entidad bancaria
+        * Netflix
+        * Canva
+
+#   Frontend
+    Es todo lo que se encargue de la parte visual de la pagina web.
+    * Sera el encargado de todo lo que ve el cliente/navegador.
+    * Solo existen tres tegnologias principales HTML, CSS, JS.
+    * Controlara que, segun el dispositivo, se muestre la informacion de la manera apropiada.
+    * Enviara informacion al Backend.
+    
+    # Un profesional Frontend debe saber:
+        * Estructurar la informacion HTML.
+        * Maquetar la informacion y mostrarla de la forma correcta aplicando estilos de CSS.
+        * Programar la interactividad deseada con el usuario desde el unico lenguaje de programacion que entiende el navegador JS.
+
+    # HTML
+        * HyperText Markup Language.
+        * Agrego la funcionalidad de poder saltar de un documento a otro.
+        * El lenguaje mas importante de todos, sin el no existiria la web tal y como la conocemos.
+        * Nos da las herramientas para organizar la informacion semantica y ordenadamente.
+        * Al que se le suele dar menos carinio en las formaciones.
+    
+    # CSS
+        * 2do Lenguaje mas importante en la web.
+        * Se encarga de presentar la informacion marcada previamente mediante HTML.
+        * Ayuda a poder separar la informacion de la presentacion.
+        * Evoluciona junto a HTML y los diferentes motores de los navegadores.
+   
+    # JAVASCRIPT
+        * Unico lenguaje de programacion que entiende el navegador.
+        * Es un lenguaje de programacion completo que es capaz de interactuar con el DOM.
+        * Evoluciona muy rapido debido a su gran uso.
+        * Todos los navegadores saben interpretarlo.
+        * Se puede usar tambien en el backend con Node.JS
+
+    # No solo es HTML, CSS, JS.
+    Tecnologias del frontend.
+        * Babel.
+        * HTML.
+        * CSS.
+        * JS.
+        * VUE.
+        * Bootstrap.
+        * Github.
+        * Webpack.
+        * React.
+        * Git.
+        * Angular.
+    
+    # Framework CSS
+        * Bootstrap.
+        * pure.
+        * Bulma
+    
+    # Preprocesadores CSS
+        * SASS
+        * LESS
+        * SCSS
+    
+    # Framework JS
+        * Meteor JS
+        * Ember JS
+        * React JS
+        * Vue JS
+        * Polimer JS 
+        * Angular JS
+        * svelte
+    
+#   Backend
+    * Sera el encargado de toda la logica de la aplicacion y negocio de la misma.
+    * Controla la comunicacion con el frontend, es decir con el usuario/cliente que interactue.
+    * Controla la comunicacion con la base de datos.
+    * Gestiona la seguridad e integridad de la informacion de la aplicacion web.
+    * Controla los usuarios y permisos de acceso.
+    * provee mediante API, informacion a otra aplicacion web.
+    * Gestion con servicios externos o interconexiones.
+
+    # Componentes
+        * Lenguaje de parte del servidor.
+        * Framework Backend
+        * Motor de base de datos.
+        * Servidor web.
+    
+    # Lenguajes y frameworks de parte del servidor
+        * PHP ==> Laravel
+        * Python ==> Django
+        * Java ==> Spring
+        * Node.JS ==> Express
+        * Ruby ==> rails
+    
+    # Motor de base de datos
+        * Persistencia de datos
+        * Seguridad
+        * Control de usuarios
+        * Copias de seguridad
+        * Rapidez e integridad
+        * Relacionales
+        * No-Relacionales
+
+        # Relacionales
+            * MariaDB
+            * PostgreSQL
+        # No-Relacionales
+            * MongoDB
+            * Redis
+    
+    # Servidor web
+        * Encargado de recibir las peticiones
+        * Procesa y gestiona las rutas 
+        * Controla las sesiones de navegador
+        * Interpreta el lenguaje de parte del servidor y devuelve la respuesta
+        # Servidores web
+            * Apache
+            * Nginx
+            * Tomcat
+            * lls
+
+#   FullStack
+    * Comprende tanto del Backend como del Frontend
+    * Normalmente siempre tiene un perfil predilecto
+    * Toma decisiones de disenio y arquitectura de la solucion
+    * Entender como interactuan el fronend con el backend
+    * Toma decisiones de arquitectura de la aplicacion en las dos vias
+    * Despliegue el stack en el servidor
+    * Controla ademas los recursos del mismo
+    * Gestiona la escalabilidad de la aplicacion web
+    * Gestiona las automatizaciones
+    
+
+
