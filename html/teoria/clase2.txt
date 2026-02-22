@@ -1,0 +1,152 @@
+## clase2 ## 
+
+#   Tim Bernes Lee
+    * Quien es?
+        Timothy "Tim" John Bernes-Lee, es un cientifico de la computacion britanico, conocido por ser el padre de la world wide web. Establecio la primera comunicacion entre un cliente y un servidor usando el protocolo HTTP en diciembre de 1990.
+    
+    * Curiosidades:
+        * Nacio en el 55 (67 anios)
+        * Sus padres se conocieron en el proyecto mark 1 (primer ordenador de programa almacenado que se comercializo)
+        * Graduado en artes...
+        * En el 1989, trabajo en el CERN, el nodo de internet mas grande de europa y Berners-Lee vio la oportunidad de unir internet y el hipertexto (HTTP y HTML), de lo que surgiria la World Wide Web.
+        * La repercusion de su inventiva la podemos notar a dia de hoy
+        * En el 1990 construyo el primer navegador (llamado WorldWideWeb y desarrollado con NEXTSTEP) y el primer servidor web al que llamo httpd (HyperText Transfer Protocol Daemon).
+        * El primer servidor Web se encontraba en el CERN y fue puesto en linea el 6 de agosto de 1991. Esto proporciono una explicacion sobre lo que era el World Wide Web, como establecer un servidor Web. Este fue tambien el primer directorio Web del mundo, ya que Berners-Lee mantuvo una lista de otros sitios Web aparte del suyo.
+        * Se libero el codigo fuente del servidor web asi como del cliente/navegador.
+        * Su difusion crecio exponencialmente
+        * El numero de servidores Web paso de veintiseis en 1992 a doscientos en octubre de 1995 lo que refleja cual fue la velocidad de la difusion de internet.
+        * Os imaginais un mundo sin internet?
+        * Internet y la web democratizo el acceso a la informacion.
+        * Los investigadores podian ayudarse los unos a los otros en el campo cientifico para adelantar tiempo y costes en procesos de creacion.
+
+    * W3C
+        * En el 1994 se traslada al MIT y funda lo que hoy conocemos como la W3C
+        * Una Web unica, universal y accesible por cualquier persona y desde cualquier dispositivo
+        * Queria evitar que internet se dividiera en areas que solo sirvieran a intereses comerciales o academicos.
+        * Que es la W3C?
+            * Es W3C es un organismo internacional de estandarizacion de tecnologias Web dirigido conjuntamente por el instituto tecnologico de massachusetts, el ERCIM frances y la Universidad de keio en Japon.
+        * Tim Berners Lee en su libro tejiendo la red, publicado en 1999, Berners-Lee explica por que la tecnologia web es libre y gratis.
+        * Se considera al mismo tiempo el inventor y el protector de la web.
+        * Fue uno de los pioneros a favor de la neutralidad de red.
+        * Fue el primer desarrollador web de la historia.
+
+    
+    * Inventor de la web
+        * HTML: HyperText Markup Language. El lenguaje de marcado (formato) para la web.
+        * URL: Uniform Resource Locator. Un tipo de "direccion" que es unica y que se utiliza para identificar cada recurso en la web.
+        * HTTP: HyperText Transfer Protocol. Permite la recuperacion de recursos vinculados de toda la web.
+
+    * Como funciona la Web?
+        * ARPANET:
+            * Red de la agencia de proyectos de investigacion avanzada.
+            * Nace como metodo de interconexion de universidades y edificios estatales para compartir informacion.
+            * Departamento de defensa EEUU.
+            * Nace con el objetivo de tener una red descentralizada de informacion.
+            * Con multiples caminos para llegar a interconectar dos nodos.
+            * Evitar nodo central de comunicacion en la guerra nuclear (mito o verdad).
+
+        * IP:
+            * Siglas de Internet Protocol.
+            * Forma parte del conjunto de protocol de internet
+            * Tambien hace de identificador de un dispositivo en una red.
+        
+        * Direccion IP:
+            * Dos funciones principales:
+                * Identificar un dispositivo dentro de una red.
+                * Direccionar un paquete a su ubicacion dentro de una red jerarquica
+            * Es un numero binario de 32 bits
+            * se muestra como 4 octetos que van del 0 al 255
+            * ejemplos:
+                * 10.128.1.253
+                * 192.168.1.50
+            * El ejemplo que mas se parece son los numeros de telefono
+            * Existen 2 grandes tipos de direcciones IP dependiendo del tipo de red en la que estemos
+            * Direccion IP publicas y privadas
+    * ISP:
+        * Empresa privada encargada de conectarnos a internet
+        * Cuando se abrio ARPANET al publico surgio la necesidad de este tipo de empresas
+        * Cuanto mas se democratiza mas competitivos son los precios
+
+    * Router:
+        * Sera el encargado de comunicar al menos dos redes
+        * Encaminara los paquetes enviados por la via correspondiente
+        * Pueden existir tanto en red local como a nivel de ISP
+    
+    * Servidor:
+        * Es un equipo informatico que esta encendido 24/7 y que esta conectado a internet
+        * Sera el responsable de recibir peticiones por parte de clientes o de otros servidores
+        * Procesara la peticion y enviara una respuesta apropiada a dicha peticion
+        * Podemos tener servidores de:
+            * Servidores de correo
+            * Servidores Web
+            * Servidores de streaming
+            * etc...
+        * tendra una identificacion de red o una Direccion IP publica
+        * Tambien puede unicamente tener una dirreccion privada si no se necesita acceso externo
+        * Su principal objetivo es escuchar peticiones y dar respuestas
+        * Por ejemplo la plataforma de Conquer Blocks
+        * Vive en un servidor
+        * Accedemos a los contenidos de dicho servidor via Web
+        * A su vez el servidor de conquer se conecta a Vimeo para que veas este video
+    
+    * DNS (Domain Name Server)
+        * Traductor de nombres de dominio a direcciones IP a nivel mundial
+        * Nos olvidamos de aprendernos direcciones IP
+        * Registro global/mundial replicado
+
+    * Dominio:
+        * Es un nombre registrado en internet con una extension determinada
+        * Existe un registro global de nombres de dominio a nivel mundial
+        * Cada extension tiene su propio encargado de controlarlo
+        * Por ejemplo .es lo lleva Red.es
+        * El coste de registro dependera de la extension
+        * Se compran normamente por un anio
+        * .es .com .edu .net .en .uk .us .it
+        * Cada dominio queda registrado en un registrador de dominio donde podemos establecer los registros DNS que tiene asignados
+        * Esta sera la forma de asignar una direccion IP a un dominio para que sepa a que servidor debe apuntar.
+    
+    * Que son las aplicaciones web?
+        * Estan compuestas:
+            * Servidor web
+            * Lenguaje de parte del servidor
+            * Sistema gestor de base de datos
+        
+        * Ofrecen:
+            * Informacion mediante paginas web
+            * Informacion en algun lenguaje de marcas: json, xml, etc...
+            * Videos en streaming
+            * Musica en streaming etc...
+        
+        * Como accedemos a ellas?
+            * Mediante un dominio en internet
+            * Conociendo la direccion IP del servidor que la aloja
+            * Acceso publico
+            * Acceso privado
+    
+    * SGML=>XML=>HTML
+        * HTML:
+            * Es una mezcla de xml, xhtml, sgml y demas lenguajes de marcas
+            * Lo estudiaremos con detenimiento
+            * Es un lenguaje mas importante de la web
+            * Gracias a el las Web hoy dia es lo que es
+            * Surge con la necesidad de mostrar informacion mediante internet
+            * Es un lenguaje mas importante de la web
+            * Siempre debe ser servido mediante un servidor web
+            * Apache, nginx, tomcat...
+            * Ha hecho que la informacion se democratice
+    
+    * Que es una URL?
+        * Uniform Resource Locator: Direccion unica y especifica que se asigna a cada uno de los recursos disponibles de la world wide web para que puedan ser localizados por el navegador y visitados por los usuarios.
+        * No confundir con un dominio
+        * Cada pagina, cada recurso, va enlazado a una URL, porque de otra manera los navegadores no podrian localizar la informacion demandada por el usuario.
+    
+    * HTTP:
+        * Protocolo de transferencia de hipertexto
+        * Define y estandariza la forma en la que nos comunicamos con un servidor web
+        * metodos HTTP
+            * Get --> Leer
+            * Post --> Crear
+            * Put --> Modificar
+            * Patch --> Modificar
+            * Delete --> Eliminar
+            
