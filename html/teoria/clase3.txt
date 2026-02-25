@@ -1,0 +1,196 @@
+## Clase3 ##
+
+#   Los lenguajes de marcas
+    * Existen desde que comenzo la informatica
+    * Son necesarios para cambiar informacion entre sistemas
+    * Con internet se convirtieron en piedras angulares para la difusion del conocimiento
+    * Permiten representar informacion 
+    * Sirven ademas para estructurar informacion 
+    * Y tambien para marcar como presentar la informacion
+    * NO SON LENGUAJES DE PROGRAMACION...
+    * Tipos:
+        * Orientados al almacenamiento y procesado de la informacion: HTML, XML, JSON, DTD...
+        * Orientados a presentacion: HTML, CSS.
+        * necesario para evitar por cada par de sistemas una conversion.
+        programa A lenguaje A --> <-- programa B lenguaje B
+    * Evolucion historica:
+        * GML: 1960 a 1970
+        * SGML: 1986
+        * HTML: 1992
+        * XML: 1998
+    * Caracteristicas de los lenguajes de marcas
+        * Independencia de la infraestructura
+        * formados por texto plano
+        * Flexibles, permiten infinitas formas para estructurar la informacion
+        * Compatibilidad > texto plano 
+        * Facilidad de procesamiento
+        * Ejemplo:
+            * Los elementos delimitados por la marca <#> son titulos de peliculas y deberian representarse en color azul y utilizando la tipografia times new roman con un tamanio de 16 puntos.
+            * Los elementos delimitados por el simbolo <%> son nombres de director y deberan representarse en color rojo y utilizando la tipografia Times New Roman con un tamanio de 14 puntos.
+            * Ejemplo:
+                <#>Tron<#>
+                <%>Steven Lisberger<%>
+                <#>Juego de Guerra<#>
+                <%>John Badham<%>
+
+    * HTML como especificacion de XML
+        * Caracteristicas:
+            * HTML
+                * El lenguaje de marcas mas popular
+                * Es el lenguaje de la web
+                * Gratuito
+                * Gestionado por el W3C
+                * Orientado a las personas 
+                * Su objetivo era estetico pero evoluciono a un lenguaje semantico.
+            * XML
+                * Democratiza la informacion
+                * Agrega algo nuevo, Hipervinculo
+                * Acceso publico
+                * Acceso privado 
+                * XML + HTML = XHTML = HTML5
+                * GML -> SGML -> HTML, XML -> XHTML, HTML5 
+    
+    * Que es una etiqueta?
+        * Elemento mas importante de HTML 
+        * Nos servira para marcar la informacion
+        * Compuestas por varios elementos 
+        * Ejemplo:
+            <p class="greeting">Hello, World</p>
+    
+    * Etiquetas vacias
+        * Existen etiquetas vacias cuyo contenido se tiene mediante los atributos
+        * <img src="logo.jpg"/>
+        * <br/>
+        * <hr/>
+
+    * Contenido de una etiqueta
+        * Informacion de texto
+        * Mas etiquetas 
+        * Etiquetas vacias
+
+    * Contenido: Texto 
+        * <a href="https://pancakeswap.finance/" target="_blank>Pancakeswap</a>
+    
+    * Contenido otras etiquetas
+        * <p class="principal"> 
+                <a href="https://pancakeswap.finance/" target="_blank>Pancakeswap</a>
+        </p>
+
+        * <p class="principal"> 
+                <a href="https://pancakeswap.finance/" target="_blank>Pancakeswap</a>
+                <img src="conejo.jpg" alt=" Imagen del conejo de pancakeswap">
+        </p>
+
+    * Cuestiones importantes que nos serviran como buenas practicas en HTML
+        1. Las etiquetas se tienen que cerrar de acuerdo a como se abren: 
+            * Ejemplo correcto en XHTML:
+                <p>Este es un parrafo con <a>un enlace</a></p>
+            * Ejemplo incorrecto con XHTML pero (Correcto con HTML)
+                <p>Este en un parrafo con <a>un enlace</p></a>
+
+        2. Los nombres de las etiquetas y de los atributos siempre se escriben en minusculas:
+            * Ejemplo correcto en XHTML
+                <p>este es un parrafo con <a href="http://www.google.com">un enlace</a></p>
+            * Ejemplo incorrecto en XHTML pero (Correcto en HTML)
+                <p>este es un parrafo con <A HREF="http://www.google.com>un enlace</A></p>
+        
+        3. El valor de los atributos siempre se cierra con comillas: 
+            * Ejemplo correcto con XHTML:
+                <p>este es un parrafo con <a href="http://www.google.com">un enlace</a></p>
+            * Ejemplo incorrecto en XHTML pero (Correcto en HTML)
+                <p>Este es un párrafo con <a href=http://www.google.com>un enlace</a></p>
+
+        4. Todas las etiquetas deben cerrarce 
+            * Ejemplo correcto en XHTML: 
+                <img src="logo.jpg"/>
+            * Ejemplo incorrecto en XHTML pero (Correcto en HTML)
+                <img src="logo.jpg">
+            
+    * Atributos comunes y atributos especificos
+        * Tipos de etiquetas
+            * Etiquetas de linea
+            * Etiquetas de bloque
+        
+        * Atributos
+            * Proveen informacion a la etiqueta
+            * Una etiqueta puede tener o no tener 
+            * Una etiqueta puede tener tantos atributos como necesite, siempre que sean validos
+
+        * Tipos 
+            * Atributos comunes 
+            * Atributos especificos de la etiqueta
+            * Atributos obligatorios y opcionales
+
+        * Algunos atributos comunes
+            * class: Permite agrupar elementos. El valor de este atributo es una cadena de caracteres definida por el autor de la pagina. Si varios elementos comparten el mismo valor, se dice que son de la misma clase. Se utiliza para asignar estilos y durante la programacion con JavaScript
+            * contenteditable: Si existe, el contenido del elemento es editable.
+            * hidden: Si existe, el elemento no se representa en el navegador.
+            * id: Identifica al elemento de manera unica en el documento. El valor es una cadena de caracteres definida por el autor de la pagina. Se utiliza para asignar estilos y durante la programacion con JavaScript.
+            * lang: Determina el idioma en el que esta escrito el contenido del elemento 
+            * spellcheck: Determina si el elemento debe ser analizado ortografica y gramaticamente por el navegador.
+            * style: Permite asignar un estilo al componente. 
+            * tabindex: Determina el orden de seleccion de elementos cuando se pulsa el tabulador.
+            * title: Permite especificar informacion extra al elemento.
+            * translate: Determina si el elemento debe ser traducido o no.
+
+        * Atributos comunes
+            * Atributos basicos:
+                * id="texto": Establece un identificador unico en cada elemento dentro de una pagina HTML
+                * class="texto": Establece la clase CSS que se aplica a los estilos del elemento
+                * style="texto": Establece la forma directa los estilos CSS de un elemento 
+                * title="texto": Establece el titulo de un elemento (mejora la Accesibilidad y los navegadores lo muestran cuando el usuario pasa el raton por encima del elemento)
+
+            * Atributos de internacionalizacion:
+                * lang = "codigo de idioma": Indica el idioma del elemento mediante un codigo predefinido
+                * xml:lang = "codigo del idioma: Indica el idioma del elemento mediante un codigo predefinido
+                * dir: Indica la direccion del texto (Util para los idiomas que escriben de derecha a izquierda)
+
+            * Atributos de evento:
+                * onblur: Deseleccionar el elemento
+                    * Elementos que pueden usarlos
+                        * <button>
+                        * <input>
+                        * <label>
+                        * <select>
+                        * <textarea>
+                        * <body>
+
+                * onchange: Deseleccionar un elemento que se a modificado
+                    * Elementos que pueden usarlos  
+                        * <input>
+                        * <select>
+                        * <textarea>
+
+                * onclick: Pinchar y soltar el raton
+                    * Elementos que pueden usarlos
+                        * Todos los elementos
+
+                * ondblclick: Pinchar dos veces seguidas con el raton 
+                    * Elementos que pueden usarlos
+                        * Todos los elementos
+
+                * onfocus: Seleccionar un elemento
+                    * Elementos que pueden usarlos
+                        * <button>
+                        * <input>
+                        * <label>
+                        * <select>
+                        * <textarea>
+                        * <body>
+                
+                * onkeydown: Pulsar una tecla (sin soltar) 
+                    * Elementos que pueden usarlo
+                        * Todos los elementos de formulario y <body>
+                
+                * onkeypress: Pulsar una tecla
+                    * Elementos que pueden usarlo   
+                        * Todos los elementos de formulario y <body>
+
+                * onkeyup: Soltar una tecla pulsada 
+                    * Elementos que pueden usarlo
+                        * Todos los elementos de formulario y <body>
+
+            * Atributos de foco:
+                * accesskey = "letra": Establece una tecla de acceso rapido a un elemento HTML
+                * tabindex = "numero": Establece la posicion de elementos en el orden de tabulacion de la pagina. Su valor debe estar comprendido entre 0 y 32.767
+                * onfocus, onblur: Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco.
