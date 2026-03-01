@@ -1,0 +1,136 @@
+## Esqueleto de cualquier pagina web ##
+    # <html>
+        <head>
+            Informacion tecnica para navegar por la pagina
+        </head>
+
+        <body>
+            Contenido que aparece en la pagina web
+        </body>
+    </html>
+
+    # <html>: Este elemento engloba todo el contenido de la pagina y es conocido en ocasiones como el elemento raiz.
+
+    # <head>: Este elemento actua como contenedor para todos los parametros que quieras incluir en el documento HTML que sera visible a los visitantes de la pagina. incluye cosas como palabras clave y la descripcion de la pagina que quieras mostrar en los resultados de busqueda, asi como la hoja de estilo para formatear nuestro contenido, declaraciones de codificacion de caracteres y mas. 
+    
+    # <body>: Contiene todo el contenido que quieras mostrar a los usuarios cuando visitan tu pagina,
+    ya sea texto, imagenes, video, juegos, pistas de audios reproducibles o cualquier otra cosa. 
+
+    # Example
+        # <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="wodth=device-width, initial-scale=1.0">
+                <title>Mi primera pagina web</title>
+            </head>        
+
+            <body>
+                <!-- Aqui va el contenido -->
+            </body>
+        </html>
+
+    # <!DOCTYPE html>: En su primera linea, es siempre conveniente indicar el tipo de documento a utilizar. Para indicar que se trata de un documento HTML5.
+
+    # <html lang="en"></html>: en su tercera linea, en estas etiquetas debemos especificar la lengua en la que esta redactado el contenido del documento en nuestro caso se trata de "en" ingles segun aparece en el ejemplo.
+
+    # <meta charset="UTF-8">: en su sexta linea, este elemento establece que tu documento HTML usara la codificacion "UTF-8", que incluye la gran mayoria de caracteres de todos los idiomas humanos escritos. En resumen puede gestionar cualquier contenido textual que pongas en tu documento. No hay rzon para no configurarlo y te puede ayudar a evitar problemas mas adelante.
+
+    # <meta name="viewport" content="width=device-width, initial-scale=1.0">: En su septima linea. Un elemento de ventana <meta> le da al navegador instrucciones sobre como controlar la dimesiones y la escala de la pagina. Si estas diseniando flexiblemente, usa la etiqueta meta viewport te prepara para adaptar tu pagina a multidispositivos.
+
+    # Primeras etiquetas importantes.
+
+        # <title></title>: En la octava linea, este elemento establece el titulo de la pagina, que aparece en la pestania/ventana de tu navegador cuando la pagina se carga y se utiliza para describir la pagina cuando la agregas a tus marcadores o la marcas como favorita.
+
+        # <body></body>: En su decima linea, en esta zona se incluyen todas las etiquetas HTML que si tienene repercusion visual en el navegador del usuario, generalmete utilizadas para dibujar secciones o partes de una pagina.
+
+    # Etiquetas de cabecera y metadatos.
+        # doctype
+            * Define el tipo de documento
+            * Debe ir en la primera linea del documento
+            * Es obligatorio, pero si no se indica se visualizara correctamente
+            * Si no se establece el navegador entra en modo no estandar y posiblemente no cargara algunas de las APIS de html5.
+
+        # <head></head>
+            * Informacion relevante para el navegador
+            * No confundir con la cabecera de un documento web a nivel visual
+            * Es mas relevante de lo que parece
+
+            # <title></title>
+                * Define el titulo que aparecera en la pestania del navegador.
+                Su funcion mas importante es que sera el texto por lo que sera indexada nuestra pagina en todos los indices (google, bing...).
+                Es muy importante que cada pagina disponga de su title personalizado.
+            
+            # meta name="description">
+                * Define la descripcion general de esa pagina en concreto. 
+                Tambien aparecera en los resultados de busqueda donde se muestre nuestra pagina. 
+
+            # <meta charset="UTF-8">
+                * Define la table de codificacion que debe usarse para mostrar el contenido.
+                Si en alguna ocasion has visto textos como CADIGO o tambiACn es porque probablemente tenga una codificacion incorrecta o no se le haya establecido esta etiqueta.
+                Que son las tablas de codificacion?
+
+            # <meta name="keywords">
+                * Anteriormente se usaba como las palabras que usaba Google para indexar nuestra magina en su indice de resultados
+                Su abuso ha hecho que:
+                Hoy en dia no sirvan para nada
+                solo buscadores antiguos usaran esta meta
+            
+            # <meta name="author">
+                * Esta etiqueta se utiliza para indicar quien es el author de dicho documento. no tiene mucho mas uso.
+            
+            # <link rel="icon" href="favicon.ico" type="image/x-icon">
+                * Es la etiqueta donde indicaremos el favicon de nuestra pagina.
+                Es posible tener varias versiones dependiendo de las diferentes plataformas.
+                Lo veremos con detenimiento en un tema aparte.
+            
+            # <meta name="viewport">
+                * Es la etiqueta donde indicaremos que tamanio queremos que tenga nuestra pagina dependiendo el ancho que tenga el dispositivo 
+            
+            # <meta name="theme-color" content="1e7bbf">
+                * Se usara para algunos navegadores moviles que disponen de la funcionalidad de poner la cabecera del navegador de un color determinado.
+                Ayudara a mejorar el branding de nuestras webs en mobile.
+            
+                Esto es solo el comienzo, dentro del head tendremos muchas mas etiquetas que iremos viendo conforme avance el curso.
+        
+        # <body></body>
+            # Etiquetas de contenido
+                * Son las etiquetas que va a renderizar nuestro navegador (elementos visuales).
+                * Definiran todo el contenido visual de nuestra paginas.
+            
+            # Etiquetas de bloques
+                * Los elementos de bloque definidos por html son: address, blockquote, center, dir, div, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, isindex, menu, noframes, noscript, ol, p, pre, tab, le, ul, dd, dt, frameset, li, tbody, td, tfoot, th, thead, tr.
+            
+            # Etiquetas de linea
+                * a, abbr, acronym, b, basefont, bdo, big, br, cite, code, dfn, em, font, i, img, input, kbd, label, q, s, samp, select, small, span, strike, strong, sub, sup, textarea, tt, u, var.
+            
+            # Comentarios 
+                * Elemento comun en todo lenguaje de programacion y de marcas.
+                * Algunos lenguajes de marcas no lo soportan.
+                * mira por el tu del futuro.
+                <!-- comentario -->
+
+            # HTML5 Boilerplate
+                * Necesitamos una estructura base para empezar
+                * No queremos tener que escribir siempre la base de nuestros documentos.
+                * Esto luego lo realizaremos con nuestro editor VSCode.
+                * Estan revisados por miles de desarrolladores.
+                * HTML5 Boilerplate
+                * htmlboilerplates.comentario
+                * solucionan el mismo problema
+            
+            # Aprendizajes
+                * Estructura de carpetas
+                * forma de nombrar a los ficheros
+                * Forma de organizar los assets:
+                    * img
+                    * css 
+                    * js
+
+            # DEMO
+                * Como abrir nuestro primer fichero html
+                * mostrar codigo fuente
+                * Abrir inspector de elementos
+                * Comparar etiquetas de bloque con etiquetas de linea
+                * Importancia del meta charset
+                * title
+                * mostrar comentarios
