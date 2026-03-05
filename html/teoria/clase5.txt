@@ -1,0 +1,138 @@
+## Etiquetas hx ##
+    # hx
+        * Sustituimos la x por 1,2,3,4,5 y 6
+        * Se utilizan para establecer cuales son los titulos de nuestros contenidos
+        * Al igual que en los libros, podemos dividirlos en capitulos, subcapitulos, secciones etc...
+        * <h1>: Nivel 1. Equivalente al titulo del documento.
+        * <h2>: Nivel 2. Equivalente al tema del documento.
+        * <h3>: Nivel 3. Equivalente a la seccion de un tema.
+        * <h4>: Nivel 4. Equivalente a un apartado de la seccion. 
+        * <h5>: Nivel 5. Equivalente a un ejemplo del apartado.
+        * <h6>: Nivel 6. Equivalente a un subapartado del ejemplo.
+
+    # h1
+        * Es el texto mas importante de cada uno de nuestros documentos. 
+        * Solo debe haber una etiqueta h1 por cada documento.
+        * Debe indicar el tema principal de lo que va nuestro documento.
+        * SEO
+    
+    # hx's
+        * Del resto de etiquetas h no existe una limitacion en cuanto al numero que puede hacer en un mismo documento.
+        * Si debemos tener en cuenta: orden de aparicion ya que no tiene sentido que desde un h2 saltemos a un h4 sin haber de por medio una etiqueta h3.
+        * Presentacion por defecto: tamanio, margenes, y grosor.
+        * Jerarquia de importancia.
+        * Son etiquetas de bloques.
+        * No deben contener dentro otra etiquetas de bloque.
+
+    # <p>
+        * Se utiliza para crear parrafos de texto.
+        * Es una etiqueta de bloque.
+        * Atributos comunes.
+        * Atributos de eventos.
+        * Visualizacion por defecto: separacion entre ellos por arriba y por abajo.
+        * Control del interlineado.
+        * Empieza y termina siempre con linea nueva.
+        * Puede contener texto u otras etiquetas.
+        * No deberia contener otras etiquetas de bloque.
+    
+    # <blockquote>
+        * Se utiliza para indicar que el texto pertenece a otro sitio externo del cual se indica la fuente.
+        * Es una etiqueta de bloque.
+        * Atributos comunes y eventos.
+        * Atributo especifico cite de tipo url para indicar el origen de la cita. 
+        * No genera automaticamente comillas alrededor del contenido. Se deben agregar de forma explicita en el propio contenido o mediante contenido generado a traves de CSS.
+        * En versiones anteriores de HTML, el contenido de <blockquote> debia escribirse dentro de parrafos <p>. En HTML5 este resquisito ha sido eliminado, pero es conveniente respetarlo.
+        * El atributo cite no sirve realmente para nada. 
+
+    # <cite>
+        * Es uno de los pocos identificadores de HTML que se emplea tanto como etiqueta como atributo.
+        * Es una etiqueta de linea, se renderiza en cursiva.
+        * Atributo comunes y eventos.
+        * Como etiqueta, <cite> se emplea para referenciar un trabajo creativo como un libro, una pelicula, un programa de television o una cancion.
+    
+    # <code>
+        * Se utiliza para indicar al navegador que el contenido de dicha etiqueta es un bloque de codigo fuente de alguno de los lenguajes de programacion o marcado.
+        * Es una etiqueta de linea, se renderiza con la fuente predeterminada monospace que tenga el navegador.
+        * Atributos comunes y eventos.
+        * Lo normal sera darle estilos css asociados al tipo de lenguajes.
+
+    # <strong>
+        * Se utiliza para marcar texto como importante dentro de un parrafo o bloque de contenido.
+        * Es una etiqueta de linea.
+        * Normalmente el navegador renderiza el contenido en negrita.
+        * Ademas de la parte visual, strong tiene un significado semantico.
+
+    # <em>
+        * Se utiliza para marcar una parte del texto con mas enfasis o como si fuera.
+        * tiene menos relevancia que strong.
+        * Atributos comunes.
+        * El navegador lo renderizara por defecto como texto en cursiva en la mayoria de los casos.
+
+    # Entidades
+        * Son caracteres protegidos o especiales de HTML.
+        * https://www.w3schools.com/html/html_entities.asp
+
+    # Enlaces
+        * Es la etiqueta que hizo que html tuviera la repercusion que tuvo en su dia.
+
+        #   <a>: La utilizaremos para enlazar a:
+                * Otros documentos internos. 
+                * Documentos externos.
+                * seccion dentro del mismo documento.
+
+        * Atributos basicos y de eventos.
+        * Atributos especificos obligatorios.
+
+        # Atributo href
+            * El valor de este atributo sera una url o un segmento de una url. Es un atributo obligatorio.
+            * No nos compliquemos la vida con los href.
+            * No espacios.
+            * No caracteres tipo entidad.
+            * No mezclar mayusculas y minusculas.
+            * Cualquier cosa que se pueda simplificar, hacedlo.
+            * Esto hara que nombremos los ficheros de forma correcta.
+
+        # Atributo download
+            * Es un atributo que puede ir vacio o puede contener el nombre del fichero con el que se descargara el documento. Para que funcione la pagina debe ser servida por un servidor web no abriendo el archivo en local.
+        
+        # Atributo target
+            * Este atributo indicara donde quieres que se abra en Enlaces.
+                * _blank: se abrirar el destino en una pestania nueva.
+                * _self: Abre el enlace en la pestania o <iframe> actual.
+        
+        # Atributo hreflang
+            * Establece el idioma del documento al que se accedera
+            * valores posibles. https://es.wikipedia.org/wiki/ISO_639-1
+        
+        # Estados de un enlace
+            * Enlaces sin visitas: Un enlace que no ha sido visitado aun es representado por los navegadores como un enlace de color azul y subrayado.
+            * Enlace visitado: Un enlace que ha sido visitado previamente es representado por los navegadores como un enlace de color lila y subrayado.
+            * Enlaces activos: Un enlace esta en estado activo cuando el usuario esta pulsado sobre el enlace con el raton y a la misma vez no ha dejado de pulsar en el.
+    
+    # Espacios en blanco en html
+        * HTML no procesa mas de un espacio seguido.
+        * Tampoco tiene en cuenta los saltos de linea en texto.
+        * Propiedades propias de html.
+
+        # &nbsp;
+            * Espacio manual.
+            * Al ser una entidad, no es tratado como un espacio.
+            * No abuses... recuerda separar informacion y presentacion.
+        
+        # <br/>: 
+            * Salto de linea manual en cualquer bloque de texto.
+            * Es una etiqueta vacia.
+            * Sin control en responsive.
+            * No abuses... recuerda separar informacion y presentacion.
+        
+        # <wbr/>:
+            * Oportunidad de salto de linea.
+            * Para palabras demasiado largas.
+            * Controlamos por donde partira la linea cuando sea necesario.
+        
+        # <pre>: 
+            * Bloque de codigo donde se respetan los espacios.
+            * Nada recomendable salvo para mostrar codigo y que se guarden las identaciones.
+            * Controlamos por donde partira la linea cuando sea necesario.
+            
+
