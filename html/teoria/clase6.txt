@@ -1,0 +1,62 @@
+## Etiquetas semanticas de estructura ##    
+    # Que son?
+        * Etiquetas de agrupacion.
+        * Etiquetas de bloque.
+        * Dan mucho valor a nuestro documentos HTML.
+        * En versiones anteriores a HTML5, al crear la estructura de una pagina, normalmente utilizabamos etiquetas <div> para ir agrupando secciones diferentes. Unido a esto, ibamos agregando los atributos id o class dependiendo de nuestro interes, para que quedase mas claro.
+        * De hecho, hoy en dia aun es muy habitual crear una estructura de etiquetas basadas en simplemente etiquetas HTML <div> que no proporcionan ninguna informacion adicional, aunque existan etiquetas alternativas mucho mas apropiadas.
+        * No hay mas que navegar y mirar con el inspector de elementos para comprobar que multitud de sitios aun no las usan.
+        * SEO.
+        * Accesibilidad.
+    
+    # <article></article>:
+        * Una de las etiquetas semanticas de seccion mas importantes de HTML5.
+        * No se trata de una etiqueta para definir articulos.
+        * Sirve para definir partes con la suficientemente importancia como para considerarse una entidad destacable con informacion a su alrededor.
+        * La naturaleza del <article> dependera del tipo de pagina: un articulo en un blog, una receta de cocina, una cancion o video, un canal de Twitchm un widget personalizado en la pagina, etc...
+        * Es posible encontrar etiquetas article dentro de otras etiquetas article. Por ejemplo las noticias recomendadas a una noticia.
+    
+    # <nav></nav>:
+        * Englobara a una lista de enlaces que normamente sera el menu de navegacion de la web.
+        * Dentro del nav podra haber una sucesion de etiquetas a o una lista de elementos (ya lo veremos).
+        * Ayudara a los robots y navegadores sin graficos a navegar por nuestra web.
+        * Es posible encontrarnos varios elementos nav en nuestra pagina webs.
+    
+    # <header></header>:
+        * Encerrara a la zona comun de la parte superior de nuestra web.
+        * Normalmente estara compuesto por el logotipo y demas componentes que se repiten en todas las paginas.
+        * No confundir el header con el head.
+        * Es posible encontrar tambien dentro de una seccion o un article a otra etiqueta header. Por ejemplo en la cabecera de un post de un blog
+    
+    # <footer></footer>:
+        * Encerrara a la zona comun de la parte inferior de nuestra web.
+        * Normalmente estara compuesto por el menu inferior, paginas legales, copyright y demas componentes que se repiten en todas las paginas.
+        * Es posible encontrar tambien dentro de una seccion o un article a otra etiqueta header. Por ejemplo en la cabecera de un post de un blog.
+
+    # <section></section>:
+        * La etiqueta <section> nos permite agrupar una seccion de nuestro documento web.
+        * Una forma facil de saber si una parte de nuestra web es una seccion, es cuando pensamos en dicha agrupacion y colocamos un encabezado para identificarla.
+        * ejemplo de section
+            * Cada una de las partes de una pagina web.
+            * Cada capitulo de un documento.
+            * Cada una de las pestanias o tabs de un cuadro de dialogo.
+            * Cada una de las secciones numeradas de un documento.
+    
+    # <main></main>:
+        * La etiqueta <main> la utilizaremos para agrupar el conjunto de contenido de nuestra pagina.
+        * A grandes rasgos es como si fuera la parte central y relevante de la misma
+        * suele ser elemento hijo de etiquetas como <body>, o <div>.
+    
+    # <aside></aside>:
+        * Es todo lo opuesto a la etiqueta main.
+        * Normalmente lleva dentro la parte mas irrelevante de la web.
+        * Permite agrupar contenido que no es considerado el principal de un documento, es decir, el contenido secundario o que no tienen relacion directa con el tema principal del documento.
+        * Ejemplos de aside
+            * Menus o sidebars.
+            * Publicidad.
+            * Zonas de navegacion.
+            * Enlaces relacionados.
+        
+## Etiquetas semanticas de texto ##
+    # Que son?
+        *
