@@ -59,4 +59,37 @@
         
 ## Etiquetas semanticas de texto ##
     # Que son?
-        *
+        * Nos ayudan a dar relevancia a partes del texto.
+        * Suelen ser etiquetas de linea.
+        * Aportan valor semantico a nuestros textos.
+        * Estas etiquetas no tienen significado grafico ni visual. Otra cosa es que los navegadores por defecto dispongan su presentacion de forma resaltada.
+        * Debemos centrarnos en el significado semantico de las mismas.
+        * SEO.
+        * Accesibilidad.
+
+    # <strong></strong>:
+        * Sirven para dar mas relevancia a unas partes del texto que otras.
+        * Normalmente sera mostrado en negrita.
+        * Es una etiqueta de linea.
+    
+    # <em></em>:
+        * Sirve para dar enfasis a una parte del texto comparado con el resto.
+        * Normalmente sera mostrado en cursiva.
+        * Es una etiqueta de linea.
+
+    # <time></time>: 
+        * Lo usaremos para marcar una fecha o una hora.
+        * Accesibilidad.
+        * Dispone de un atributo datetime en formato timestamp en fortmato string.
+
+    # <address></address>:
+        * Lo usaremos para indicar la forma de contacto o direccion que mostraremos en nuestra web.
+        * Accesibilidad.
+        * Puede ser desde una url, una direccion, un email, etc...
+
+## Etiquetas no recomendadas ##
+    * Debido a las diferentes versiones de HTML es normal encontrar usos de etiquetas que no deben aplicarse hoy en dia.
+    * Vamos a ver algunos Ejemplos
+        * <b></b>: Sirve para poner texto en negrita sin darle la importancia que tiene un strong. Se desaconseja su uso por mezclar informacion y presentacion.
+        * <i></i>: Sirve para poner el texto en otra voz. mejor usar <em></em>
+        * <small></small> <u></u>.
