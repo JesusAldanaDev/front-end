@@ -1,0 +1,121 @@
+## Etiquetas de agrupacion ##
+    * Que son?
+        * En HTML existen dos tipos de etiquetas: de linea y de bloque
+        * Ademas existen otros dos tipos segun lo que contienen:
+            * Etiquetas que contienen solo texto
+            * Etiquetas que contienen otras etiquetas
+            * En esta ocasion, vamos a centrarnos en el segundo grupo, que son las etiquetas que se utilizan para agrupar y asociar informacion relacionada
+    
+    * Para que agrupar?
+        * Identificarla como una seccion especifica
+        * Para darle estilo visual (CSS)
+        * Para darle funcionalidad (Javascript)
+        * Hay que encontrar el equilibrio entre ser ordenados y tener etiquetas de mas. Aunque ante la duda, mejor que sobre que falte, te sera mas facil darle estilos depues.
+    
+    * Etiquetas vistas en el tema anterior
+        * section
+        * main
+        * header
+        * footer
+        * aside
+        * article
+        * todas las etiquetas semanticas son al la vez de agrupacion. Se encargan precisamente de eso de agrupar contenido semantico.
+        * Os acordais de la tarea en figma? Grupos de informacion es lo que hacias sin apenas daros cuenta.
+
+    * <div></div>
+        * De las etiquetas mas conocidas.
+        * De las etiquetas que menos sirven.
+        * De las etiquetas que mas abusamos.
+        * Atributos comunes y eventos.
+        * La etiqueta <div> es una etiqueta muy simple que se suele utilizar para crear una agrupacion de una o varias etiquetas y organizarlas en una division especifica.
+        * Es una etiqueta que no aporta significado especial de ningun tipo.
+        * Es necesario tener una logica a la hora de agrupar la informacion.
+        * No ser redundante.
+        * Es una etiqueta de bloque.
+        * Los navegadores por defecto no aportan ninguna informacion grafica de mas.
+        * Mucho cuidado al agrupar etiquetas.
+        * cuidado   
+            * Accesibilidad.
+            * SEO.
+            * El codigo HTML ocupara mas tamano.
+            * Al ser mas grande, tardara mas en descargarse.
+            * El navegador tardara mas tiempo en renderizar la pagina (dibujarla).
+            * Hay mas probabilidades de que sea menos accesible.
+    
+    * <span></span>
+        * De las etiquetas mas conocidas.
+        * De las etiquetas que menos sirven.
+        * De las etiquetas que mas abusamos.
+        * Atributos comunes y eventos.
+        * Se puede decir que la etiqueta span es como la etiqueta div, pero por el contrario es una etiqueta de linea.
+        * La usaremos para marcar el texto para posteriormente dar estilos o interactividad con JS.
+        * No aporta semantica de ningun tipo.
+        * No cambia el flujo natural del texto.
+        * Recuerda:
+            * Una etiqueta de linea puede contener mas etiquetas de linea.
+            * Una etiqueta de linea no puede contener etiquetas de bloque.
+    
+    * <blockquote></blockquote>
+        * Se utiliza para indicar que el texto pertenece a otro sitio externo del cual se indica la fuente.
+        * Es una etiqueta de bloque.
+        * Atributos comunes y eventos.
+        * Atributo especifico cite de tipo url para indicar el origen de la cita.
+    
+    * <hr>
+        * Se utiliza para separar bloques de contenido de otros bloques de contenido.
+        * Inserta una linea horizontal.
+        * es un elemento de bloque.
+        * Cada navegador la pintura a su manera hasta que no le digamos lo contrario.
+        * la podemos encontrar ademas como etiqueta de separacion semantica.
+        * Aporta semantica, la separacion de un tema con otro.
+        * Lo visual no es relevante porque se puede personalizar.
+
+    * Listas ul, ol y dl
+        * ul, ol
+            * Son elementos de bloque
+            * Se utilizan para organizar informacion en formato de listado.
+            * disponen de etiquetas hijas <li></li>
+            * Ambas funcionan de la misma manera, lo unico que cambian es el "orden".
+        
+        * ul
+            * Siglas de (lista sin orden)
+            * Se utilizara para listar una serie de elementos en los que no importa el orden
+            * Lista de personas, ingredientes...
+        
+        * ol 
+            * Ordered list
+            * Se utilizara para listar una serie de elementos en los que importan el orden.
+            * Lista de pasos a seguir
+            * Diferentes tipos de numeracion.
+
+        * li 
+            * List item
+            * Elementos de bloque
+            * Dependera del padre de su presentacion si con vineta o con numero
+
+        * dl
+            * Definition/Description list.
+            * Se utiliza para listar elementos y definirlos. 
+            * Muy usada en diccionarios.
+            * Este tipo de lista no dispone de etiquetas hijas li
+            * Tienes sus propias etiquetas hijas.
+            * Muy usada en diccionarios.
+            * dt: Termino a definir.
+            * dd: Definicion del termino.
+        
+        * Listas anidadas
+            * Una lista puede contener otra lista en su interior
+            * SIEMPRE DENTRO DE UN LI
+            * Hay que tener especial cuidado a la hora de abrir y cerrar las etiquetas.
+            * De lo contrario sera inmanejable.
+            * Pueden mezclarse los tipos de listas.
+        
+        * figure y figcaption
+            * Figure es una etiqueta de agrupacion para imagenes.
+            * Encerrara a una etiqueta img basica.
+            * Se manejara mucho mejor con CSS en el futuro.
+            * Recuerda que en la ilustracion o figura, se pueden contener todo tipo de elementos, no solo imagenes. Ejemplos validos podrian ser videos, parrafos de texto o incluso contenido de otro tipo.
+            * figcaption agrega significado semantico a la imagen.
+            * Ayudara al atributo alt del img.
+            * Normalmente se utiliza como el texto pie de la imagen.
+            
