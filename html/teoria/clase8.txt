@@ -1,0 +1,42 @@
+## tablas ## 
+    * Que son? 
+        * Las tablas estan incluidas en HTML desde sus primeras versiones y son una forma fantastica de mostrar datos claramente.
+        * Se utilizan para mostrar datos tabulados y listados de informacion organizada.
+        * Se deben utilizar unicamente para mostrar datos organizados de forma tabular con encabezado.
+        * una tabla puede ser sencilla o compleja, dependiendo de nuestro objetivo y la cantidad de etiquetas o atributos a utilizar.
+    
+    * Antiguos usos de las tablas
+        * Aunque parezca ciencia ficcion, antiguamente se usaban para maquetar estructuras de paginas complejas cuando CSS no era tan potente y sobre todo cuando los navegadores no lo soportaban todos por igual.
+        * La cabecera de la pagina era una fila de una gran tabla, el pie de pagina era otra fila de esta tabla y la zona de contenidos estaba formada por varias columnas dentro de esa gran tabla.
+        * A dia de hoy se siguen usando para maquetar cosas muy especificas como por ejemplo los correos electronicos que tienen diseno y estructura.
+    
+    * <table></table>
+        * Englobara todo el contenido de la tabla
+        * Etiqueta de bloque
+        * Atributos comunes y eventos
+        * Atributo propio: summary = "texto" que permite describir el contenido de la tabla para buscadores y accesibilidad
+        * Atributo border solo para este momento
+    
+    * <tr></tr>
+        * Modela una fila de la tabla en la que este incluidas
+        * Etiquetas de bloque
+    
+    * <th></th>
+        * Celda de cabecera de fila o de columnas
+        * Etiquetas de tipo nuevo, ni es de linea de bloque
+        * Los navegadores suelen renderizar su contenido en negrita
+        * Aporta semantica a nuestras tablas 
+    
+    * <td></td>
+        * Celda comun de tabla
+        * Etiquetas de tipo nuevo, ni es de linea es de bloque
+        * Son las que contendran los datos regulares de la tabla
+        * Atributos especificos de fusion de celdas
+        * Colspan: para fusionar columnas
+        * Rowspan: para fusionar filas
+        * Luego veremos ejemplos
+
+    * <caption></caption>
+        * Lo usaremos para indicar en texto el contenido de la tabla
+        * Los navegadores accesibles lo usaran para dar una descripcion de lo que pueden encontrar en la tabla
+        * El navegador lo renderizara a modo de titulo de la tabla
