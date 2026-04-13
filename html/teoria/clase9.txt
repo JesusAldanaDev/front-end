@@ -1,0 +1,38 @@
+### Tablas avanzadas ###
+    * Colspan
+        * Que son?
+            * Atributos de la celdas
+            * th y td
+            * Nos serviran para fusionar celdas adyacentes por columnas.
+            * Una tabla puede ser sencilla o compleja, dependiendo de nuestro objetivo y la cantidad de etiquetas o atributos a utilizar.
+    
+    * Rowspan
+        * Que son?
+            * Atributos de celdas
+            * th y td
+            * Nos serviran para fusionar celdas adyacentes por filas.
+            * Una tabla puede ser sencilla o compleja, dependiendo de nuestro objetivo y la cantidad de etiquetas o atributos a utilizar.
+
+    * Colspan + Rowspan
+        * Contabilizar total de filas
+        * Contabilizar total de columnas
+        * Comprobar que la suma de td's + colspan dan el total de columnas por filas
+        * Comprobar que la suma de tr + rowspan dan el total de filas por columnas
+    
+    * Tablas semanticas
+        * Ayudan al igual que las etiquetas semanticas, a agregar significado a los datos tabulados
+        * Dividiremos las tablas en tres partes
+    
+    * <thead></thead>
+        * Aglutinara todas las filas con celdas de cabecera
+        * Etiqueta hija de tbody
+        * Aporta semantica a nuestras tablas
+    
+    * <tbody></tbody>
+        * Contendra todos los datos de la tabla
+        * Despues de thead siempre y cuando no exista tfoot
+
+    * <tfoot></tfoot>
+        * Siempre antes de tbody
+        * Sirve para acumulados, contabilizaciones o repetir la cabecera
+        
